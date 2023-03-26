@@ -16,7 +16,13 @@ Para rodar o projeto, criar banco de dados com o nome:
   contactsys
 ```
 
-Rodar o comando abaixo no terminal na raiz do projeto:
+Em seguida, executar o comando na raiz do projeto:
+
+```bash
+  composer install
+```
+
+Após instalar as dependências, executar o comando:
 
 ```bash
   php vendor/bin/doctrine orm:schema-tool:create
